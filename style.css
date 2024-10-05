@@ -162,7 +162,7 @@ nav {
     text-align: center;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 90vh;
 
 }
 #about{
@@ -170,10 +170,19 @@ nav {
 }
 .about-title{
     margin-bottom: 20px;
+    margin-top: 90px;
     font-family: "Merriweather", serif;
     font-weight: 900;
     font-style: normal;
     font-size: 80px;
+    color: #1c86ee;
+
+}
+.edu{
+    margin-bottom: 20px;
+    font-family: "Merriweather", serif;
+    font-style: normal;
+    color: #1c86ee;
 
 }
 .about-container {
@@ -302,4 +311,7 @@ nav {
 
 .con_form button:hover {
     background-color: #1c86ee;
+}
+.foot{
+    text-align: center;
 }
