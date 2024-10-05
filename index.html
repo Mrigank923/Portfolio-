@@ -4,22 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" >
-    <title>Document</title>
+    <title>MY_PORTFOLIO</title>
 </head>
 <body>
-    <header>
-        <nav>
-
-            <ul class="nav_list">
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">HOME</a></li>
-
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skill">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section>
+        <div id="about">
+            <h1>Hello , I am Mrigank raj</h1>
+            <p>passionate about machine learning and web development</p>
+        </div>
+        <hr>
+        <div id="education">
+            <h2>Education</h2>
+            <p>I have done my 10th from ST Mary's senior secoundary school with 90% in 10th and 12th from suraj gyan memorial public school , konch with 82.5%in 12th.<br>Currently , I am pursuing B.tech from Ajay Kumar Garg Engineering College , Ghaziabad in Computer Science and Engineering Branch and I am in 2nd year of my graduation.</p>
+        </div>
+        <hr>
+        <div id="skill">
+            <h2>Skills</h2>
+            <p>I have a good command on C++ and C and practice competitive programming and currently I am learning python for machine learning skills.</p>
+        </div>
+        <hr>
+        <div id="contact">
+            <h2>Contact</h2>
+            <form action="">
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" placeholder="Enter name" name="name">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" placeholder="Enter email">
+                </div>
+                <div>
+                    <input type="button" id="btn" value="submit">
+                </div>
+            </form>
+            <ul>
+                <li><a href="https://www.instagram.com/mrigank_raj2004/" target="_blank"><img class="icon" src="images/insta.png" alt=""></a></li>
+                <li><a href="https://www.linkedin.com/in/mrigank-raj-491b4a282/" target="_blank"><img class="icon"src="images/linkedin.jpg" alt=""></a></li>
+                <li><a href="https://github.com/Mrigank923" target="_blank"><img class ="icon" src="images/github.png" alt=""></a></li>
             </ul>
-
-        </nav>
-    </header>
-    
+        </div>
+    </section>
 </body>
 </html>
